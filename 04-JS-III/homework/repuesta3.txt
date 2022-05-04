@@ -1,0 +1,17 @@
+* Arrays = los array son contenedores en lo que podemos poner distintas clases de datos,
+            ya sea booleanos, numbers, String, etc., estos datos a su ves estan separados por comas
+            ,los array son matrices y estos cuentan con numero de indice
+            para su recorrido!!!, vamos a dar un ejemplo
+
+            let array = [1 , 'Matias' , true , 'Naty' ] ;//qui tenemos un array con distinta clase de datos.
+                indices   0 ,    1     ,  2   ,   3  y asi sucesivamente.
+
+
+a los podemos recorrer con bucles y tomar sus datos de acuerdo al indice donde nos paremos 
+podemos agregar, quitar o simpremente utilizar la informacion que ya tenemos de la misma.
+ y estos tienen distitos metodos que nos ayudan a saber distintas cosas de ellos o dependiendo de lo 
+ que queramos realizar. como por ejemplo:
+
+ array.length // esto nos va a indicar el numero de incices que tiene 
+ array.push()// nos va a colocar una variable del tipo que elijamos en la ultima posicion de este
+ array[1]  =  'Naty' nos va a agregar en la posicion uno o el indice uno el string 'Naty?.          

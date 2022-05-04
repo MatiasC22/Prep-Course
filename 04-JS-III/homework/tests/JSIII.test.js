@@ -47,6 +47,7 @@ describe('obtenerLargoDelArray(arr)', function() {
 
 describe('incrementarPorUno(arr)', function() {
   it('should return the array with each value incremented by one', function() {
+    console.log(incrementarPorUno([10, 10, 16, 12]));
     expect(incrementarPorUno([10, 10, 16, 12])).toEqual([11, 11, 17, 13]);
     expect(incrementarPorUno([97, 100, 80, 55, 72, 94])).toEqual([98, 101, 81, 56, 73, 95]);
     expect(incrementarPorUno([])).toEqual([]);
