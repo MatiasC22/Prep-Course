@@ -1,0 +1,82 @@
+[1mdiff --git a/05-JS-IV/homework/respuestas4.txt b/05-JS-IV/homework/respuestas4.txt[m
+[1mindex e69de29..10b01ac 100644[m
+[1m--- a/05-JS-IV/homework/respuestas4.txt[m
+[1m+++ b/05-JS-IV/homework/respuestas4.txt[m
+[36m@@ -0,0 +1,76 @@[m
+[32m+[m[32m* Objetos = los orjetos son como los array , en lo que se puede guardar informacion de cualquier clase[m
+[32m+[m[32m            estos no se basan en key : values, siendo el key el nombre de una sentencia o propiedad[m[41m [m
+[32m+[m[32m            que en el caso de los array serian los indices. y las values o valores es el contenido[m[41m [m
+[32m+[m[32m            dentro del mismo. Los orjetos se obtienen con {} a diferencia de los array.[m
+[32m+[m[32m            otra cosa es que dentro de los key: values se separan por comas.[m[41m        [m
+[32m+[m
+[32m+[m[32m        ej: var abjeto = {}; // este es un objetos[m
+[32m+[m
+[32m+[m[32m        ej de objeto con key: values[m[41m [m
+[32m+[m
+[32m+[m[32m        var nuevoobjeto = {[m
+[32m+[m[32m            key: values,[m
+[32m+[m[32m            clave: valor,[m
+[32m+[m[32m            array : [1,2,3,4,5,34],[m
+[32m+[m[32m            objeto: { objetoDentroDeObjeto, true, 10},[m
+[32m+[m[32m            booleanos: false,[m
+[32m+[m[32m            numeros : 20,[m
+[32m+[m[32m        }[m
+[32m+[m[32muna ves tenemos el objeto al mismo le podemos agregar elmentos para esto lo llamamos[m[41m [m
+[32m+[m[32my proseguimos de la siguiente manera.[m
+[32m+[m[32magregar clave : valor[m
+[32m+[m
+[32m+[m[32mnuevoobjeto['propiedad'] = 'string';  // lo que esta en corchetes es un nuevo key y debe ponerse entre '',[m
+[32m+[m[32mnuevoobjeto.propiedad = 'string'; // esta es una forma de hacerlo con punto[m
+[32m+[m
+[32m+[m[32mAcceder a una clave: valor. laforma a la  que podemos acceder es llamando el objeto y la key[m
+[32m+[m[32mnuevoobjeto['clave']// nos devolvera ""valor""[m
+[32m+[m[32mo nuevoobjeto.booleanos /// nos devolvera ""false""[m
+[32m+[m
+[32m+[m[32mpara eliminar propiedades lo hacemos de la misma manera que llamandolas pero anteponiendo delete.[m
+[32m+[m
+[32m+[m[32mdelete nuevoobjeto.booleanos;// nos borrara la key booleanos ej[m
+[32m+[m
+[32m+[m[32mvar nuevoobjeto = {[m
+[32m+[m[32m            key: values,[m
+[32m+[m[32m            clave: valor,[m
+[32m+[m[32m            array : [1,2,3,4,5,34],[m
+[32m+[m[32m            objeto: { objetoDentroDeObjeto, true, 10},[m[41m            [m
+[32m+[m[32m            numeros : 20,[m
+[32m+[m[32m        }[m
+[32m+[m
+[32m+[m[32m* Métodos = los metodos son funciones que hacen algo de da una key y se trabaja de la misma forma que[m[41m [m
+[32m+[m[32m            hacemos una funcion ejemplo:[m
+[32m+[m
+[32m+[m[32mvar nuevoobjeto = {[m
+[32m+[m[32m            key: values,[m
+[32m+[m[32m            clave: valor,[m
+[32m+[m[32m            array : [1,2,3,4,5,34],[m
+[32m+[m[32m            objeto: { objetoDentroDeObjeto, true, 10},[m
+[32m+[m[32m            booleanos: false,[m
+[32m+[m[32m            numeros : 20,[m
+[32m+[m[32m            metodo: function(aqui psamos parametros){[m
+[32m+[m[32m                //aqui escribimos para utilizamos el metodo[m[41m [m
+[32m+[m[32m            }[m
+[32m+[m[32m        }[m
+[32m+[m
+[32m+[m
+[32m+[m[32m* Bucle `for…in` = el bucle for in es una forma de recorrer el objeto por sus keys,[m
+[32m+[m[32m                   como en el array que se recorre pro sus indices este se recorre por el nombre de[m[41m [m
+[32m+[m[32m                   sus keys.[m
+[32m+[m
+[32m+[m[32m                   for(claves in nuevoobjeto){[m
+[32m+[m[32m                       //nos recorrera el nuevo objeto por sus claves si ponemos console.log(nuevoobjeto);[m
+[32m+[m[32m                       en cada iteracion nos ira saltando el nombre de cada clave .[m
+[32m+[m[32m                   }[m
+[32m+[m
+[32m+[m
+[32m+[m[32m* Notación de puntos vs notación de corchete = ambas notaciones se usan para entrar dentro del objeto a[m[41m [m
+[32m+[m[32m            un lugar o ubicacion determinado, con ambos podes agregar un nuevo elemento como explique anteriormete[m
+[32m+[m[32m            quitarlo o modificarlo, la gran diferencia que ahi entre ambos es que dentro de la notaciones[m
+[32m+[m[32m            por corchetes podes introducir argumentos lo que facilita nuestro trabajo dado que son dinamicos[m
+[32m+[m[32m            una ves colocamos el argumento, solo necesitamos modificar esa variable para que todo lo de mas cambie[m
+[32m+[m[32m            con un par de linas nomas, y en caso de que por cada tabla se pasa un argumento diferente[m[41m [m
+[32m+[m[32m            este cambia el argumento que necesitamos para toda la funcion.[m
+[32m+[m
+[32m+[m[41m [m
+\ No newline at end of file[m
